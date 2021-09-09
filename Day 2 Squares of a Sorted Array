@@ -1,10 +1,10 @@
-# 977. Squares of a Sorted Array
+# 977. Squares of a Sorted Array:
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
         squared_nums = [num**2 for num in nums]
         return list(sorted(squared_nums))
         
-# 189. Rotate Array
+# 189. Rotate Array:
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
