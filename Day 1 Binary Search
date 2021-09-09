@@ -1,4 +1,4 @@
-# 704. Binary Search
+# 704. Binary Search:
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         left, right = 0, len(nums) -1
@@ -12,7 +12,7 @@ class Solution:
                 left = pivot + 1
         return -1
         
-# 278. First Bad Version
+# 278. First Bad Version:
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return an integer
@@ -32,7 +32,7 @@ class Solution:
                 left = mid + 1
         return left
         
-# 35. Search Insert Position
+# 35. Search Insert Position:
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:  
         start = 0
